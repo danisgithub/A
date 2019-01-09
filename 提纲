@@ -1,0 +1,21 @@
+#Python练习
+#print
+print ('1024 * 768 =', 1024*786)
+
+#变量赋值与input
+name = input('your name:')
+print ('hello',name)
+
+#list and  tuple
+group = [1,2,3]    #可修改
+num = (1,2,3)    #不可修改
+
+#条件判断    if elif else
+if    :
+    print
+else    :
+    print
+else:
+    print    
+	
+#循环
