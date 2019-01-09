@@ -3,12 +3,12 @@
 import math
 def quad(a,b,c):
     d = b*b-4*a*c
-	if d < 0:
+    if d < 0:
 	    print('no')
-	else:
+    else:
 	    x1 = (-b+math.sqrt(d))/(2*a)
-		x2 = (-b-math.sqrt(d))/(2*a)
-		return(x1,x2)
+	    x2 = (-b-math.sqrt(d))/(2*a)
+	    return(x1,x2)
 
 a = input('a')
 b = input('b')
