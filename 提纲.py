@@ -12,11 +12,11 @@ num = (1,2,3)    #不可修改
 
 #条件判断    if elif else
 if    :
-    print
+    print（）
 else    :
-    print
+    print（）
 else:
-    print    
+    print（）    
 	
 #循环
 #for in 循环
@@ -33,7 +33,7 @@ print (sum)
 n = 1    
 while n <= 100:    #输出1-100
     print(n)
-	n = n + 1
+    n = n + 1
 print('end')
 
 #break
