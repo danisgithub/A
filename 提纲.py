@@ -36,7 +36,7 @@ while n <= 100:    #输出1-100
     n = n + 1
 print('end')
 
-#break
+#break    停止，需借助if条件判断
 n = 1
 while n <= 100:
     if n > 10: 
@@ -45,5 +45,12 @@ while n <= 100:
     n = n + 1
 print('end')
 
-#测试
-hhh
+#continue    跳过循环
+n = 0
+while n < 10:
+    n = n + 1
+    if n%2 = 0:    #n/2的余数为0，也就是偶数
+    continue
+print(n)
+
+#
