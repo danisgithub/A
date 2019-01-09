@@ -51,6 +51,7 @@ while n < 10:
     n = n + 1
     if n%2 = 0:    #n/2的余数为0，也就是偶数
     continue
-print(n)
+print(n)    #此程序输出10以内的奇数
 
-#
+#dict    dictionary字典
+
