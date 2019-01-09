@@ -15,5 +15,4 @@ elif 25 < float(bmi) <=28:
 elif 18.5 < float(bmi) <= 25:
     print('正常')
 else:
-	print('过轻')
-	
+    print('过轻')
