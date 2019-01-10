@@ -7,8 +7,8 @@ name = input('your name:')
 print ('hello',name)
 
 #list and  tuple
-group = [1,2,3]    #可修改
-num = (1,2,3)    #不可修改
+group = [1,2,3]    #list 可修改
+num = (1,2,3)    #tuple 不可修改
 
 #条件判断    if elif else
 if    :
@@ -93,3 +93,40 @@ def move(x, y, step, angle=0):
     return nx, ny
 x,y = move()
 print(x,y)
+
+#函数的参数    不变
+def power(x, n):    #n次方,不断乘自身
+    s = 1
+    while n > 0:
+        n = n - 1
+        s = s * x
+    return s
+	
+#可变参数，传入一个list或者tuple
+def calc(number):
+    sum = 0
+	for n in number:
+        sum = sum + n * n
+    return sum    #此代码直接粘贴无效，注意line107
+	
+def calc(numbers):
+    sum = 0
+    for n in numbers:
+        sum = sum + n * n
+    return sum    #此代码有效
+	
+calc([1,2,3])
+
+#加*
+def calc(*numbers):
+    sum = 0
+    for n in numbers:
+        sum = sum + n * n
+    return sum
+
+calc(1,2)
+
+#已有list
+num = [1,2,3]
+calc(*num)
+
