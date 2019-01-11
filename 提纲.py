@@ -130,3 +130,5 @@ calc(1,2)
 num = [1,2,3]
 calc(*num)
 
+#关键字参数
+def person()
