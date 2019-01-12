@@ -132,3 +132,14 @@ calc(*num)
 
 #关键字参数
 def person()
+#传入参数待补
+
+#函数递归
+def fact(n):    #阶乘
+    if n ==1:
+        return 1
+	return 	n * fact(n-1)
+	
+#尾递归优化
+
+	
