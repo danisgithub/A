@@ -138,8 +138,24 @@ def person()
 def fact(n):    #阶乘
     if n ==1:
         return 1
-	return 	n * fact(n-1)
+	return 	n * fact(n-1)    
 	
-#尾递归优化
+#尾递归优化 
+
+#函数
+#abs()
+#int()
+#float()
+#str()
+#bool()布尔值
+#append()
+#range()
+#import math
+#math.pi
+#math.sin()
+#
+
+#slice 
+
 
 	
