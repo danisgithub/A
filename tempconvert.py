@@ -12,3 +12,4 @@ elif tempstr[-1] in ['c','C']:
 else:
     print('error')
 #评估函数eval() 去掉参数最外侧的引号，将字符串变为数值
+
